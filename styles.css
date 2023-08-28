@@ -1,32 +1,61 @@
   body{
     max-height: 100vh;
+    margin-left: 1px;
+    margin-right: 1px;
+    margin-top: 0;
   }
   .up-section{
+    display: flex;
+    align-items: center;
     border: 1px black solid;
-    text-align: center;
+    /* text-align: center; */
     height: 50px;
   }
+  /* nav bar */
   .nav{
-    border: 1px black solid;
-    text-align: center;
+    display: flex;
+    justify-content: center;
     height: 30px;
     background-color: black;
-
   }
+  /* this is nav button group */
+  .nav-buttons-group {
+    width: 350px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  li{
+    font-size: 17px;
+    display: flex;
+    display: inline-block;
+    color: white;
+  }
+
+  li:hover{
+    transform: scale(1.2);
+    display: flex;
+    display: inline-block;
+    color: white;
+  }
+
   .hero{
+    background-image: url("https://thumbs.dreamstime.com/b/healthy-breakfast-food-banner-side-border-table-scene-fruit-yogurt-smoothie-bowl-nutritious-toasts-cereal-egg-skillet-top-170652866.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
     border: 1px black solid;
     text-align: center;
-    height: 180px;
+    height: 280px;
 
   }
   .main-section{
-    border: 1px black solid;
-    text-align: center;
-    height: 110px;
+    text-align: left;
+    height: 100%;
 
   }
   .footer{
-    border: 1px black solid;
+    background-color: lightgray;
     text-align: center;
     height: 80px;
 
